@@ -1,11 +1,9 @@
-🧭 OSS Compass
+--OSS Compass
 OSS Compass is a full-stack web application designed to help new open-source contributors find suitable first issues. It uses AI to analyze a user's GitHub profile and match them with relevant, beginner-friendly tasks.
 
-🔴 Live Demo: https://oss-compass.vercel.app/
+--Live Demo: https://oss-compass.vercel.app/
 
-(To add a screenshot: take one of your live app, upload it to a site like Imgur, and paste the link here)
-
-✨ Features
+--Features
 Personalized Recommendations: Analyzes a user's public repositories to determine their top 3 programming languages.
 
 Intelligent Issue Finding: Searches GitHub for issues labeled "good first issue" or "help wanted" in the user's top languages.
@@ -14,7 +12,7 @@ AI-Powered Analysis: Uses the Google Gemini API to provide a concise, one-senten
 
 Modern UI: A polished, responsive frontend built with Next.js, featuring skeleton loaders and animations for a seamless user experience.
 
-🛠️ Tech Stack
+--Tech Stack
 Frontend: Next.js (React), TypeScript, Tailwind CSS, Framer Motion
 
 Backend: Python, FastAPI
@@ -25,7 +23,7 @@ APIs: GitHub REST API
 
 Deployment: Vercel (Frontend) & Render (Backend)
 
-🚀 Running Locally
+--Running Locally
 Prerequisites
 Node.js and npm
 
