@@ -86,7 +86,7 @@ def get_ai_analysis(issue_title: str, issue_body: str):
         print(f"--> Attempting AI analysis with key #{i+1}...")
         try:
             genai.configure(api_key=key)
-            model = genai.GenerativeModel('models/gemini-pro-latest') 
+            model = genai.GenerativeModel('models/gemini-2.0-flash') 
             response = model.generate_content(prompt)
             return response.text.strip()
         except google_exceptions.ResourceExhausted:
